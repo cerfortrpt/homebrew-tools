@@ -6,10 +6,10 @@ class Myvault < Formula
   license "MIT"
 
   def install
-    bin.install "vaultfingerprint" => "vaultcf"
+    bin.install "vaultfingerprint" => "myvault"
   end
 
   test do
-    system "#{bin}/vaultcf", "--help"
+    system "#{bin}/myvault", "--help"
   end
 end
