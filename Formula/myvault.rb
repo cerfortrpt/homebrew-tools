@@ -1,8 +1,8 @@
 class Myvault < Formula
   desc "Vault-related CLI tool with Touch ID auth"
   homepage "https://github.com/cerfortrpt/myvaultcli"
-  url "https://github.com/cerfortrpt/myvaultcli/releases/download/v0.3.33/vaultfingerprint"
-  sha256 "3ed8af79212ec600c711f0cb6a65d4adfd8d4b03cea960b40f2f43997cf6bb0b"
+  url "https://github.com/cerfortrpt/myvaultcli/releases/download/v0.3.34/vaultfingerprint"
+  sha256 "714a75e8f75614321e06a6a912a23f4a68d4f0e9c3790980b5823efa8f2ae447"
   license "MIT"
 
   def install
