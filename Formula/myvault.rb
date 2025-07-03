@@ -6,7 +6,7 @@ class Myvault < Formula
   license "MIT"
 
   def install
-    bin.install "vaultfingerprint" => "myvault"
+    bin.install "main" => "myvault"
   end
 
   test do
